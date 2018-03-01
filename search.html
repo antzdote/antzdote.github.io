@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>weConnect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <img src="we2.jpg" alt="image"> <img src="we1.png" alt="image">
+    <hr>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="search.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="container">
+    <header>
+        <nav class="navbar navbar-inverse" style="background-color:maroon ;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                    <a class="navbar-brand" href="#">weConnect</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="landing.html">Home</a></li>
+                        <li><a href="business.html">Business Profile</a></li>
+                        <li class="active"><a href="search.html">Search</a></li>
+
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="search">
+        <form class="category" action="action_page.php">
+            <input type="text" placeholder="Search by category" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form><br>
+        <form class="location" action="action_page.php">
+            <input type="text" placeholder="Search by location" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <hr>
+
+    <h1>Search results come here</h1>
+    <div class="card" style="width:50%;">
+
+        <div class="card-body">
+            <h3 class="card-title">Tech clay works</h3>
+            <p class="card-text">Located in Thika Kiambu county. This is one of the biggest clay works in EastAfrica with over 70% of all exported products in East EastAfrica
+            </p>
+            <a href="#" class="btn btn-primary">Go to business</a>
+        </div>
+    </div><br>
+    <div class="card" style="width:50%;">
+
+        <div class="card-body">
+            <h3 class="card-title">Huff tech</h3>
+            <p class="card-text">located in Harare Zimbabwe. This is one of the most influencial tech startups in Africa. Employing dozens of people monthly.
+            </p>
+            <a href="#" class="btn btn-primary">Go to business</a>
+        </div>
+    </div><br>
+    <div class="card" style="width:50%;">
+
+        <div class="card-body">
+            <h3 class="card-title">EviTech</h3>
+            <p class="card-text">Located in Nairobi Kenya. This is the few private investigator groups in Kenya that deal with cyber crimes.
+            </p>
+            <a href="#" class="btn btn-primary">Go to business</a>
+        </div>
+    </div>
+</body>
+
+</html>

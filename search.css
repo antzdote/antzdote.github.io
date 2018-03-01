@@ -1,0 +1,51 @@
+body {
+    background-color: mediumseagreen;
+}
+
+.search {
+    background-color: grey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.category input[type=text],
+form.location input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.category button,
+form.location button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(33, 149, 243);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.category button:hover,
+form.location button:hover {
+    background: #aa79be;
+}
+
+form.category::after,
+form.location::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    background-color: #FC4A1A;
+    padding: 5PX;
+}
