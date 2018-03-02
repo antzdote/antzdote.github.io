@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>weConnect</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="landing.css" />
+
+    <link rel="stylesheet" href="update.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse" style="background-color:maroon ;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                    <a class="navbar-brand" href="#">weConnect</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="landing.html">Home</a></li>
+                        <li><a href="business.html">Business Profile</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li class="active"><a href="Update.html">Update</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <form class="update" action="/action_page.php" method="GET">
+        <div class="container">
+            <h1>Update business</h1>
+
+            <hr>
+            <label for="Location"><b>Location</b></label><br>
+            <input type="text" placeholder="Change business location" name="Location"><br>
+
+            <label for="location"><b>Location</b></label><br>
+            <input type="text" placeholder="Enter business location" name="location">
+            <br>
+            <label for="name"><b>Business name</b></label><br>
+            <input type="text" placeholder="Mybusiness1" name="name">
+            <br>
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="savebtn">Save</button>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
